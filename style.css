@@ -1,0 +1,271 @@
+body{
+	background-color: #077054;
+}
+h1, h3{
+	color: #99fa99;
+	font-family: 'nixie_oneregular'
+}
+h4{
+	color: #b6d8cf;
+	font-family: 'nixie_oneregular'
+}
+a:hover{
+	text-decoration: none;
+}
+h1,h4{
+	padding: 10px 0;
+	text-align: center;
+}
+.nav-item{
+	margin: 0 50px 0 0;
+	padding: 0 0 0 20px;
+}
+.nav-item .nav-link{
+	color: white;
+}
+.body{
+	background-color: #ffffff;
+	max-width: 900px;
+	/*min-height: 827px;*/
+	overflow: hidden;
+	padding: 45px 40px 46px;
+	margin: 1px auto 0;
+}
+@font-face {
+	font-family: 'latoregular';
+	src: url('font/lato-regular-webfont.eot');
+	src: url('font/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('font/lato-regular-webfont.woff') format('woff'),
+		url('font/lato-regular-webfont.ttf') format('truetype'),
+		url('font/lato-regular-webfont.svg#latoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'nixie_oneregular';
+	src: url('font/nixieone-regular-webfont.eot');
+	src: url('font/nixieone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('font/nixieone-regular-webfont.woff') format('woff'),
+		url('font/nixieone-regular-webfont.ttf') format('truetype'),
+		url('font/nixieone-regular-webfont.svg#nixie_oneregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+img{
+	border: none;
+}
+.body img.figure {
+	display: block;
+	float: right;
+	margin: 74px 0 46px 0;
+	max-width: 100%;
+	width: auto;
+}
+.body div.tagline {
+	float: left;
+	margin: 110px 0 0 25px;
+	max-width: 510px;
+}
+.body div.tagline h1 {
+	background: url(images/bg-separator.png) no-repeat center bottom;
+	color: #21a51e;
+	font-family: 'nixie_oneregular';
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 100px;
+	margin: 0;
+	padding: 0 0 55px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.body div.tagline p {
+	color: #21a51e;
+	font-family: 'nixie_oneregular';
+	font-size: 50px;
+	line-height: 100px;
+	padding: 43px 0 0;
+	text-align: center;
+}
+.footer{
+	max-width: 900px;
+	overflow: hidden;
+	/*padding: 30px 0 60px;*/
+	margin: 0 auto;
+}
+.footer p, span{
+	color: #99fa99;
+
+}
+.addres{
+	float: left;
+	margin: 0 auto;
+}
+.address p{
+	font-size: 12px;
+	line-height: 30px;
+}
+.address span{
+	font-size: 20px;
+}
+.address a{
+	color: #99fa99;
+}
+.address a:hover{
+	color: #333333;
+	text-decoration: none;
+}
+.social{
+	float: right;
+}
+.social ul{
+	list-style-type: none;
+	margin-top: -10px;
+
+}
+.social ul li{
+	margin: 10px;
+	float: right;
+	margin: 20px;
+	color: #99fa99;
+
+}
+.social ul li a{
+	color: #99fa99;
+}
+.social ul li a:hover{
+	color: #333333;
+}
+/*about-us*/
+.about{
+	float: left;
+	margin: 110px 0 0 25px;
+	max-width: 510px;
+}
+.about h1{
+	/*background: url(images/bg-separator.png) no-repeat center bottom left;*/
+	color: #21a51e;
+	font-family: 'nixie_oneregular';
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 0;
+	margin-top: -50px;
+	padding: 0 0 55px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.about p{
+	color: #333333;
+	font-family: 'nixie_oneregular';
+	font-size: 25px;
+	line-height: 40px;
+	padding: 0 0 0;
+	text-align: center;
+}
+/*classes*/
+.classes{
+	float: left;
+	margin: 110px 0 0 25px;
+	max-width: 410px;
+}
+.classes h4{
+	/*background: url(images/bg-separator.png) no-repeat center bottom left;*/
+	color: #145a32;
+	font-family: 'nixie_oneregular';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 0;
+	margin-top: 0;
+	padding: 0 0 55px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.classes p{
+	color: #333333;
+	font-family: 'nixie_oneregular';
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 0;
+	text-align: left;
+	margin-top: -35px;
+}
+.classes h1{
+	color: #21a51e;
+	font-family: 'nixie_oneregular';
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 0;
+	margin-top: -70px;
+	padding: 0 0 55px;
+	text-align: left;
+	text-transform: uppercase;
+}
+/*instructors*/
+.instructors{
+	float: left;
+	max-width: 510px;
+	
+}
+.instructors h4{
+	/*background: url(images/bg-separator.png) no-repeat center bottom left;*/
+	color: #145a32;
+	font-family: 'nixie_oneregular';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 0;
+	margin-top: 0;
+	padding: 0 0 55px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.inst-1{
+	height: 100px;
+	width: 240px;
+	background-color: green;
+	float: left;
+}
+.inst-2{
+	float: left;
+	margin-right: 90px;
+}
+.instructors ul{
+	list-style-type: none;
+	/*float: left;*/
+	
+}
+.instructors ul li{
+	float: left;
+	margin-left: 20px;
+}
+.ul1{
+	margin-top: 50px;
+}
+.instructors p{
+	text-align: center;
+	font-family: 'nixie_oneregular';
+	font-size: 20px;
+	color: #145a32;
+}
+/*blog*/
+.blog-body ul{
+	list-style-type: none;
+}
+.blog-body ul li{
+
+}
+.blog-body h3, span, p{
+	color: #333333;
+	font-family: 'latoregular';
+}
+/*single-post*/
+.single-body h3, p{
+	color: #333333;
+}
+
+/*contact*/
+/*.form-body{
+	max-height: 400px;
+}*/
+.btn{
+	width: 100px;
+	height: 50px;
+}
